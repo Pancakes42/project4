@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>TimeLess</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+        <style>
+            img{
+                display:block;
+                margin-left:auto;
+                margin-right:auto;
+                
+            }
+            #bigwatch{
+                height:auto;
+                width:40%;
+            }
+            .content{
+                text-align:center;
+                font-size:140%;
+                
+            }
+            .content p{
+                background-color:rebeccapurple;
+            }
+            #smallwatch{
+                display:none;
+                
+            }
+            @media screen and (max-width:1000px){
+                #bigwatch{
+                    display:none;
+                    
+                }
+                #smallwatch{
+                    display:block;
+                    height:auto;
+                    width:90%;
+                }
+                .content{
+                    font-size:100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+                <div id="navi">
+                        <div><a href="index.html">Index</a></div>
+                    
+                    
+                        <div><a href="proposal.html">Proposal</a></div>
+                    
+                    
+                        <div><a href="project.html">Project</a></div>
+                    
+                    
+                        <div><a href="documentation.html">Documentation</a></div>
+                    </div>
+            <div id= "title">
+            <h1>TimeLess</h1>
+            <h3>Will Walrond</h3>
+            </div>
+            <div class="content">
+                <img id = "bigwatch" src="images/the-melting-watch.jpg"> 
+                <img id="smallwatch" src="images/watchsmall.jpg">
+                <p>
+                    Travel through a ruined timeline and defy fate. Play as one of four outcasts and treck through the dying history of your world, fighting off zombies, robots, and other horrible monsters as you try and get the chance to remake the world in your own image.
+                </p>
+            </div>
+        </div>
+        
+    </body>
+
+</html>
